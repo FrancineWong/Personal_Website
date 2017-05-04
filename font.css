@@ -1,0 +1,26 @@
+/*@font-face {
+	font-family: firstFont; 
+	src: url('../FONT/Chalkduster.ttf') format('truetype');
+	src: url('../FONT/Chalkduster.eot') format('eot');
+	src: url('../FONT/Chalkduster.svg') format('svg');
+	src: url('../FONT/Chalkduster.woff') format('woff');
+}
+*/
+/*@font-face{
+	font-family: secondFont;
+	src: url('../FONT/Papyrus.ttf') format('truetype');
+	src: url('../FONT/Papyrus_W01.eot') format('eot');
+    src: url('../FONT/Papyrus_W01.otf') format('otf');
+	src: url('../FONT/Papyrus_W01.svg') format('svg');
+	src: url('../FONT/Papyrus_W01.woff') format('woff');
+}*/
+
+@font-face{
+	font-family: firstFont;
+	src: url('../FONT/CabinSketch-Bold.ttf');
+}
+
+@font-face{
+	font-family: secondFont;
+	src: url('../FONT/HappyMonkey-Regular.ttf');
+}

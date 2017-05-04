@@ -1,0 +1,272 @@
+* {margin: 0 auto; padding: 0;}
+
+a{text-decoration: none;}
+
+#content3{
+	width: 100%;
+	height: 100%;
+	background-color: #eff8f7;
+	margin-top: 3.9375em;
+	position: fixed;
+	display: none;
+}
+
+/*timeline*/
+.tl{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.time{
+	width: 100%;
+	height: 92%;
+	position: absolute;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.tl p{
+	font-family: 'Quicksand', serif;
+}
+
+#title_l, #title_r{
+	font-size: 1.25em;
+	color:#8c8c8c;
+}
+
+#sub_t_l, #sub_t_r{
+	padding-top: 0.3125em;
+	font-size: 1.125em;
+	color: #74b2a0;
+}
+
+#text_l, #text_r{
+	font-size: 0.9375em;
+	color: #8c8c8c;
+	padding-top: 0.3125em;
+}
+
+.title_exp{
+	/*width: 68.75em;*/
+	height: 5em;
+	font-size: 1.25em;
+	font-family: 'Quicksand', serif;
+	color: #74b2a0;
+	text-align: center;
+	line-height: 5em;
+}
+
+.net_l, .game_l, .d_l, .intern_l, .stitp_l, .mcm_l, .ub_l, .njupt_l{
+	float: left;
+	text-align: right;
+	position: absolute;
+}
+
+.net_r, .game_r, .d_r, .intern_r, .stitp_r, .mcm_r, .ub_r, .njupt_r{
+	float: right;
+	text-align: left;
+	position: absolute;
+}
+
+.net{
+	width: 68.75em;
+	height: 11.875em;
+	background: url(../IMAGES/timeline.png) no-repeat center;
+	background-size: 1.25em auto;
+	/*background-color: red;*/
+	position: absolute 0 0;
+	/*border: 1px solid black;*/
+}
+.net_l, .net_r{
+	width: 32.5em;
+	height: 9.375em;
+	/*background-color: yellow;*/
+	padding:1.25em 0;
+	position: relative;
+}
+
+.net_r p{
+	line-height: 9.375em;
+	color: #74b2a0;
+}
+
+.game{
+	width: 68.75em;
+	height: 10.625em;
+	background: url(../IMAGES/timeline.png) no-repeat center;
+	background-size: 1.25em auto;
+	/*background-color: red;*/
+	position: absolute 0 0;
+	/*border: 1px solid black;*/
+}
+
+.game_l, .game_r{
+	width: 32.5em;
+	height: 8.125em;
+	/*background-color: white;*/
+	padding:1.25em 0;
+	position: relative;
+}
+
+.game_l p{
+	line-height: 8.125em;
+	color: #74b2a0;
+}
+
+.d{
+	width: 68.75em;
+	height: 13.75em;
+	background: url(../IMAGES/timeline.png) no-repeat center;
+	background-size: 1.25em auto;
+	/*background-color: red;*/
+	position: absolute 0 0;
+	/*border: 1px solid black;*/
+}
+
+.d_l, .d_r{
+	width: 32.5em;
+	height: 11.25em;
+	/*background-color: yellow;*/
+	padding: 1.25em 0;
+	position: relative;
+}
+
+.d_r p{
+	line-height: 11.25em;
+	color:#74b2a0;
+}
+
+.intern{
+	width: 68.75em;
+	height: 9.375em;
+	background: url(../IMAGES/timeline.png) no-repeat center;
+	background-size: 1.25em auto;
+	/*background-color: red;*/
+	position: absolute 0 0;
+	/*border: 1px solid black;*/
+}
+
+.intern_l, .intern_r{
+	width: 32.5em;
+	height: 6.875em;
+	/*background-color: white;*/
+	padding: 1.25em 0;
+	position: relative;
+}
+
+.intern_l p{
+	line-height: 6.875em;
+	color:#74b2a0;
+}
+
+.stitp{
+	width: 68.75em;
+	height: 13.75em;
+	background: url(../IMAGES/timeline.png) no-repeat center;
+	background-size: 1.25em auto;
+	/*background-color: red;*/
+	position: absolute 0 0;
+	/*border: 1px solid black;*/
+}
+
+.stitp_l, .stitp_r{
+	width: 32.5em;
+	height: 11.25em;
+	/*background-color: yellow;*/
+	padding: 1.25em 0;
+	position: relative;
+}
+
+.stitp_r p{
+	line-height: 11.25em;
+	color:#74b2a0;
+}
+
+.mcm{
+	width: 68.75em;
+	height: 13.125em;
+	background: url(../IMAGES/timeline.png) no-repeat center;
+	background-size: 1.25em auto;
+	/*background-color: red;*/
+	position: absolute 0 0;
+	/*border: 1px solid black;*/
+}
+
+.mcm_l, .mcm_r{
+	width: 32.5em;
+	height: 10.625em;
+	/*background-color: white;*/
+	padding: 1.25em 0;
+	position: relative;
+}
+
+.mcm_l p{
+	line-height: 10.625em;
+	color:#74b2a0;
+}
+
+/*education*/
+.title_edu{
+	/*width: 68.75em;*/
+	height: 5em;
+	font-size: 1.25em;
+	font-family: secondFont;
+	color: #74b2a0;
+	text-align: center;
+	line-height: 5em;
+}
+.ub{
+	width: 68.75em;
+	height: 9.375em;
+	background: url("../IMAGES/timeline.png") no-repeat center;
+	background-size: 1.25em auto;
+	/*background-color: red;*/
+	position: absolute 0 0;
+	/*border: 1px solid black;*/
+}
+
+.ub_l, .ub_r{
+	width: 32.5em;
+	height: 6.875em;
+	/*background-color: white;*/
+	padding: 1.25em 0;
+	position: relative;
+}
+
+.ub_r p{
+	line-height: 6.875em;
+	color:#74b2a0;
+}
+
+.njupt{
+	width: 68.75em;
+	height: 9.375em;
+	background: url("../IMAGES/timeline.png") no-repeat center;
+	background-size: 1.25em auto;
+	/*background-color: red;*/
+	position: absolute 0 0;
+	/*border: 1px solid black;*/
+}
+
+.njupt_l, .njupt_r{
+	width: 32.5em;
+	height: 6.875em;
+	/*background-color: white;*/
+	padding: 1.25em 0;
+	position: relative;
+}
+
+.njupt_l p{
+	line-height: 6.875em;
+	color:#74b2a0;
+}
+
+.null{
+	width: 68.75em;
+	height: 5em;
+}

@@ -1,0 +1,138 @@
+* {margin: 0 auto; padding: 0;}
+
+a{text-decoration: none;}
+
+#content2{
+	width: 100%;
+	height: 100%;
+	background-image: url("../IMAGES/LHZ_0936.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-color: #eff8f7;*/
+	margin-top: 3.7375em;
+	position: fixed;
+	display: none;
+}
+
+.active{
+	font-size: 1.5625em;
+}
+
+.skill{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.7);
+	background-size: cover;
+	position: fixed;
+}
+
+.skills{
+	width: 50em;
+	height: 31.25em;
+	/*background-color: red;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -15.625em;
+	margin-left: -25em;
+}
+
+#sk{
+	width: 12.5em;
+	height: 15.625em;
+	/*background-color: yellow;*/
+	float: left;
+}
+
+#c{
+	width: 7.5em;
+	height: 7.5em;
+	background-image: url("../IMAGES/80.png");
+	background-size: 7.5em 7.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#sk p{
+	text-align: center;
+	font-size: 1.25em;
+	font-family: 'Quicksand', serif;
+	color: #8c8c8c;
+	/*padding: 2.8125em;*/
+}
+
+#c, #java, #matlab, #html, #css, #js, #py, #ps{
+	padding-top: 6em;
+}
+
+#text{
+	text-align: center;
+	font-size: 1.25em;
+	font-family: 'Quicksand', serif;
+	color: #8c8c8c;
+	margin-top: -1.1em;
+}
+
+#java{
+	width: 7.5em;
+	height: 7.5em;
+	background-image: url("../IMAGES/75.png");
+	background-size: 7.5em 7.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#matlab{
+	width: 7.5em;
+	height: 7.5em;
+	background-image: url("../IMAGES/60.png");
+	background-size: 7.5em 7.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#html{
+	width: 7.5em;
+	height: 7.5em;
+	background-image: url("../IMAGES/90.png");
+	background-size: 7.5em 7.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#css{
+	width: 7.5em;
+	height: 7.5em;
+	background-image: url("../IMAGES/90.png");
+	background-size: 7.5em 7.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#js{
+	width: 7.5em;
+	height: 7.5em;
+	background-image: url("../IMAGES/75.png");
+	background-size: 7.5em 7.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#py{
+	width: 7.5em;
+	height: 7.5em;
+	background-image: url("../IMAGES/60.png");
+	background-size: 7.5em 7.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ps{
+	width: 7.5em;
+	height: 7.5em;
+	background-image: url("../IMAGES/90.png");
+	background-size: 7.5em 7.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+

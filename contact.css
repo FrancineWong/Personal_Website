@@ -1,0 +1,88 @@
+* {margin: 0 auto; padding: 0;}
+
+a{text-decoration: none;}
+
+#content4{
+	width: 100%;
+	height: 100%;
+	background-image: url("../IMAGES/LHZ_2036.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-color: #eff8f7;*/
+	position: fixed;
+	display: none;
+}
+
+.contact{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255, 0.6);
+	position: fixed;
+}
+
+.method{
+	width: 75em;
+	height: 18.75em;
+	/*background-color: red;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -9.375em;
+	margin-left: -37.5em;
+	/*margin-top: 12.5em;*/
+}
+
+.method_child{
+	width: 56.25em;
+	height: 18.75em;
+	/*background-color: white;*/
+	position: relative;
+}
+
+.linkedin, .fb, .mail, .phone{
+	width: 14.0625em;
+	height: 9.375em;
+	margin-top: 5em;
+	/*background-color: yellow;*/
+	float: left;
+}
+
+.linkedin, .fb, .mail, .phone p{
+	font-size: 0.9375em;
+	font-family: 'Quicksand', serif;
+    color: #637e7b;
+    text-align: center;
+    padding-top: 6.25em;
+}
+
+.method_child a:hover{
+	text-shadow: 0.0625em 0.0625em #cacaca;
+}
+
+.linkedin{
+	background: url("../IMAGES/linkedin.png") no-repeat top;
+	background-size: 5em 5em;
+}
+
+.fb{
+	background: url("../IMAGES/fb.png") no-repeat top;
+	background-size: 5em 5em;
+	/*link:https://www.facebook.com/profile.php?id=100010315774058*/
+}
+
+.mail{
+	background: url("../IMAGES/mail.png") no-repeat top;
+	background-size: 5em 5em;
+}
+
+.phone{
+	background: url("../IMAGES/phone.png") no-repeat top;
+	background-size: 5em 5em;
+}
+
+
+
+
+
+
+

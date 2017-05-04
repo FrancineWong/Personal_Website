@@ -1,0 +1,81 @@
+* {margin: 0 auto; padding: 0;}
+
+a{text-decoration: none;}
+
+#content1{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: #eff8f7;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-top: 4.1em;
+	position: fixed;
+}
+
+.about{
+	width: 53.125em;
+	height: 34.375em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -20em;
+	margin-left: -26.5625em;
+	/*margin-top: 1.875em;*/
+	/*background-color: red;*/
+}
+
+.img{
+	width: 12.5em;
+	height: 12.5em;
+	border-radius: 50%;
+	background-image: url("../IMAGES/circle_img.jpg");
+	background-size: cover;
+}
+
+.intro{
+	width: 53.125em;
+	height: 14.375em;
+	text-align: center;
+	margin-top: 1.875em;
+}
+
+.intro p{
+	font-family: 'Quicksand', serif;
+	/*letter-spacing: 0.08em;*/
+	font-size: 0.9375em;
+	color: #8c8c8c;
+	/*line-height: 1.5em*/
+}
+
+#sum{
+	padding-top: 1.875em;
+	padding-bottom: 2.5em;
+}
+
+#skill{
+	padding-bottom: 0.3125em;
+}
+
+.download{
+	width: 12.5em;
+	height: 1.875em;
+	/*margin-top: 1em;*/
+	text-align: center;
+}
+
+.download a{
+	color: #8c8c8c;
+	line-height: 1.875em;
+	font-size: 0.9375em;
+	font-family: 'Quicksand', serif;
+	text-align: center;
+	border: #8c8c8c 0.125em solid;
+	border-radius: 0.625em;
+	padding:0.3125em 1.25em;
+}
+
+.download a:hover{
+	color: white;
+	border-color: white;
+}
